@@ -55,7 +55,9 @@ function ContactSection() {
                     <Link
                         target="_blank"
                         referrerPolicy="no-referrer"
-                        href={'https://linkedin.com/in/chiragbhalotia'}
+                        href={
+                            'hhttps://www.linkedin.com/in/krishna-rathod-00b155232/'
+                        }
                         className="flex items-center w-full justify-left text-xl lg:text-2xl gap-5 font-bold px-10 py-5 bg-accent/10 rounded-xl"
                     >
                         <Linkedin height={35} width={35} />
@@ -64,7 +66,7 @@ function ContactSection() {
                     <Link
                         target="_blank"
                         referrerPolicy="no-referrer"
-                        href={'https://www.instagram.com/code.chirag'}
+                        href={'https://www.instagram.com/its._hritik/'}
                         className="flex items-center w-full justify-left text-xl lg:text-2xl gap-5 font-bold px-10 py-5 bg-accent/10 rounded-xl"
                     >
                         <Instagram height={35} width={35} />
@@ -73,11 +75,11 @@ function ContactSection() {
                     <Link
                         target="_blank"
                         referrerPolicy="no-referrer"
-                        href={'mailto:me@chirag.codes'}
+                        href={'mailto:krishnarathod7089@gmail.com'}
                         className="flex items-center w-full justify-left text-sm lg:text-2xl gap-5 font-bold px-10 py-5 bg-accent/10 rounded-xl"
                     >
                         <Mail height={35} width={35} />
-                        <p>chiragbhalotia0412@gmail.com</p>
+                        <p>krishnarathod7089@gmail.com</p>
                     </Link>
                 </div>
                 <form

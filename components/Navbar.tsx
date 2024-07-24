@@ -70,7 +70,7 @@ function Navbar() {
                             <span>{'< '}</span>
                             <h1 className="text-2xl font-medium">
                                 {' '}
-                                {'Chirag'}
+                                {'Krishna'}
                             </h1>
                             <span>{' />'}</span>
                         </header>

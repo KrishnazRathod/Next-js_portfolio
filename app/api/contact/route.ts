@@ -12,7 +12,7 @@ export async function POST(req: Request) {
             transporter.sendMail(
                 {
                     from: process.env.GMAIL_USERNAME,
-                    to: 'me@chirag.codes',
+                    to: 'krishnarathod7089@gmail.com',
                     subject: `You have received a message from ${body.name}`,
                     html: render(
                         ContactEmailHtml({

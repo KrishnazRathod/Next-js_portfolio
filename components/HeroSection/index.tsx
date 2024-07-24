@@ -17,16 +17,15 @@ function HeroSection() {
                 <h1 className="text-2xl lg:text-3xl">
                     Hi I{"'"}m <br />
                     <span className="text-6xl md:text-7xl lg:text-8xl font-semibold bg-clip-text text-transparent bg-gradient-to-br from-primary  to-accent">
-                        Chirag
+                        Krishna
                     </span>
                 </h1>
                 <p className="lg:text-lg text-muted mt-4 font-medium max-w-xl">
-                    Greetings! I{"'"}m a passionate full-stack web developer
-                    with over three years of hands-on experience. I thrive on
-                    turning ideas into seamless digital experiences. With a
-                    background in freelancing, I bring a proven track record of
-                    delivering exceptional services to diverse clients. Let{"'"}
-                    s craft something extraordinary together!
+                    I'm a skilled Frontend Developer with nearly 1 years of
+                    experience creating dynamic web applications using React,
+                    Redux, TypeScript, UI frameworks, and RESTful APIs. I excel
+                    in enhancing user interfaces and optimizing performance.
+                    Ready to bring your web applications to the next level!
                 </p>
                 <div className="links mt-10 flex items-center gap-6">
                     <Link
@@ -39,7 +38,9 @@ function HeroSection() {
                         <div className="sr-only">Github</div>
                     </Link>
                     <Link
-                        href={'https://linkedin.com/in/chiragbhalotia'}
+                        href={
+                            'hhttps://www.linkedin.com/in/krishna-rathod-00b155232/'
+                        }
                         target="_blank"
                         referrerPolicy="no-referrer"
                         className="hover:scale-110 cursor-pointer"
@@ -48,7 +49,7 @@ function HeroSection() {
                         <div className="sr-only">Linkedin</div>
                     </Link>
                     <Link
-                        href={'https://www.instagram.com/code.chirag'}
+                        href={'https://www.instagram.com/its._hritik/'}
                         target="_blank"
                         referrerPolicy="no-referrer"
                         className="hover:scale-110 cursor-pointer"
@@ -57,7 +58,7 @@ function HeroSection() {
                         <div className="sr-only">Instagram</div>
                     </Link>
                     <Link
-                        href={'mailto:me@chirag.codes'}
+                        href={'mailto:krishnarathod7089@gmail.com'}
                         target="_blank"
                         referrerPolicy="no-referrer"
                         className="hover:scale-110 cursor-pointer"
@@ -80,13 +81,13 @@ function HeroSection() {
                 </div>
             </div>
             <div className="image w-full lg:w-1/2 relative aspect-square -mt-10 ">
-                <Image
-                    src="/chirag.webp"
+                {/* <Image
+                    src="/krishna_image.png"
                     className="w-full aspect-square"
                     alt=""
                     fill={true}
                     priority={true}
-                />
+                /> */}
                 <div className="gradient absolute w-full h-1/2 bg-gradient-to-t from-background to-transparent bottom-0 left-0 right-0"></div>
             </div>
         </section>
